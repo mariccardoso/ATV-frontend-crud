@@ -1,0 +1,103 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f300be, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .nav{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navLink{
+    text-decoration: none;
+    color: #f300be;
+    font-weight: bold;
+  }
+  
+  .navLink:hover{
+    text-decoration: underline;
+    color: #9f00be;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f300be;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #9f00be;
+}
+
+
+.addedComments {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.addedComments h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #f300be, #4e00b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.addedCommentList {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.addedCommentItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #f800e3;
+}
