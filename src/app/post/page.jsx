@@ -2,6 +2,7 @@
 import { useState } from "react";
 import axios from "axios";
 import styles from './post.module.css'
+import Link from "next/link";
 
 export default function PostPage() {
     const [loading, setLoading] = useState(false);
@@ -42,6 +43,12 @@ export default function PostPage() {
     return (
         <main className={styles.main}>
             <h1 className={styles.title}>POST - Adicionar Comentário</h1>
+            <nav className={styles.nav}>
+                <Link href="/get" className={styles.navLink}>GET</Link>
+                <Link href="/post" className={styles.navLink}>POST</Link>
+                <Link href="/put" className={styles.navLink}>PUT</Link>
+                <Link href="/delete" className={styles.navLink}>DELETE</Link>
+            </nav>
 
             <div className={styles.form}>
                 <input

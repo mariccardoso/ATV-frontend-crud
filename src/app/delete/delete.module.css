@@ -1,0 +1,117 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f300be, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  .nav{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navLink{
+    text-decoration: none;
+    color: #f300be;
+    font-weight: bold;
+  }
+  
+  .navLink:hover{
+    text-decoration: underline;
+    color: #9f00be;
+  }
+
+  .formGroup {
+    margin-bottom: 15px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .formLabel {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .input{
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .input:focus{
+        border-color: #f300be;
+        outline: none;
+        box-shadow: 0 0 5px rgba(243, 0, 190, 0.5);
+    }
+
+    .button{
+        background-color: #f300be;
+        color: white;
+        border: none;
+        padding: 20px 25px;
+        border-radius: 4px;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .commentBox {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        max-width: 600px;
+        margin-bottom: 10px;
+    }
+
+    .commentBox h2 {
+        margin: 0 0 5px 0;
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    .commentBox p strong {
+        background: linear-gradient(90deg, #f300be, #4e00b4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .commentBox p {
+        margin: 5px 0 0 0;
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .commentBox{
+        cursor: pointer; 
+    }
+
+    .deleteButton {
+        background-color: #f300be;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
