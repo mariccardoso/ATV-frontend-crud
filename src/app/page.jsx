@@ -6,24 +6,23 @@ export default function Home() {
     return (
         <main className={styles.main}>
           <h1 className={styles.title}>CRUD Completo</h1>
-          <nav className={styles.nav}>
-            <Link href="/get" className={styles.navLink}>GET</Link>
-            <Link href="/post" className={styles.navLink}>POST</Link>
-            <Link href="/put" className={styles.navLink}>PUT</Link>
-            <Link href="/delete" className={styles.navLink}>DELETE</Link>
-          </nav>
-          <div className={styles.heroSection}>
-            <Image
-              src="/images/hero.png"
-              alt="Hero Image"
-              width={600}
-              height={400}
-              className={styles.heroImage}
-            />        
-            <div className={styles.heroText}>
-              <h2>Bienvenido a la Aplicación CRUD</h2>
-              <p>Explora las funcionalidades de Crear, Leer, Actualizar y Eliminar comentarios.</p>
-            </div>
+          <div className={styles.grid}>
+            <Link href="/get" className={styles.card}>
+              <h2>GET &rarr;</h2>
+              <p>Busque comemtários consumindo API REST com GET</p>
+            </Link>
+            <Link href="/post" className={styles.card}>
+              <h2>POST &rarr;</h2>
+              <p>Crie comemtários consumindo API REST com POST</p>
+            </Link>
+            <Link href="/put" className={styles.card}>
+              <h2>PUT &rarr;</h2>
+              <p>Edite comemtários consumindo API REST com PUT</p>
+            </Link>
+            <Link href="/delete" className={styles.card}>
+              <h2>DELETE &rarr;</h2>
+              <p>Delete comemtários consumindo API REST com DELETE</p>
+            </Link>
           </div>
         </main>
     )

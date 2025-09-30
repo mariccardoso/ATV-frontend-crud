@@ -54,7 +54,7 @@ export default function Delete() {
                 <Link href="/put" className={styles.navLink}>PUT</Link>
                 <Link href="/delete" className={styles.navLink}>DELETE</Link>
             </nav>
-            <div className={styles.formGroup}>
+            <div className={styles.form}>
                 <input
                     type="text"
                     id="commentId"

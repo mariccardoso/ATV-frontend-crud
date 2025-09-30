@@ -33,46 +33,37 @@
     color: #9f00be;
   }
 
-  .formGroup {
-    margin-bottom: 15px;
-    width: 100%;
-    gap: 20px;
+  .form {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
-    .formLabel {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-    }
-
-    .input{
-        width: 80%;
-        padding: 20px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
+.input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
     .input:focus{
         border-color: #f300be;
         outline: none;
         box-shadow: 0 0 5px rgba(243, 0, 190, 0.5);
     }
 
-    .button{
-        background-color: #f300be;
-        color: white;
-        border: none;
-        padding: 20px 25px;
-        border-radius: 4px;
-        margin-top: 10px;
-        cursor: pointer;
-        font-size: 1.2rem;
-        transition: background-color 0.3s ease;
-    }
+    .button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #f300be;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+  }
 
     .commentBox {
         background-color: #fff;
